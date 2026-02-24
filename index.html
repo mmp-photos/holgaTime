@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Exposure Calculator</title>
+        <link rel="stylesheet" type="text/css" href="public/styles/styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav>
+                <h1>Equivalent Shutter Speed Calculator</h1>
+            </nav>
+            
+            <p>Enter your current exposure settings to calculate the equivalent shutter speed at a new F-Stop.</p>
+
+            <label for="originalFStop">Metered F-Stop (N):</label>
+            f/<select id="originalFStop"></select><br><br>
+
+            <label for="originalShutterSpeed">Metered Shutter Speed (t):</label>
+            <select id="originalShutterSpeed"></select><br>
+
+            <label for="filmType">Film (t):</label>
+            <select id="filmType"></select><br>
+
+            <button onclick="calculatePinholeShutterSpeed(originalFStop, originalShutterSpeed)">Calculate Equivalent Shutter Speed</button>
+            
+            <p id="result"></p>
+
+            <p id="display"></p>
+
+            <script src="public/scripts/calculateExposure.js"></script>
+            
+            <script>
+                document.addEventListener('DOMContentLoaded', populateFStopSelect);
+                document.addEventListener('DOMContentLoaded', populateShutterSelect);
+                document.addEventListener('DOMContentLoaded', populateFilmSelect);
+            </script>
+        </div>
+    </body>
+</html>
