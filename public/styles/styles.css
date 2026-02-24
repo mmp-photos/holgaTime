@@ -1,0 +1,39 @@
+body {
+    display: block;
+    background-color: #f5f6fa;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 12rem;
+    padding: .3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+}
+
+button{
+    margin: 3rem;
+}
+
+.calculated-speed{
+    font-size: 4rem;
+}
+
+nav{
+    background-color: #c9c9c9;
+    width: 100%;
+}
