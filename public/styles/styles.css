@@ -1,3 +1,17 @@
+/* Mobile styles */
+@media (max-width: 768px) {
+    :root{
+        font-size: 36;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+    :root{
+        font-size: 16;
+    }
+}
+
 body {
     display: block;
     background-color: #f5f6fa;
