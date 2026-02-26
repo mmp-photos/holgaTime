@@ -2,19 +2,20 @@
 @media (max-width: 768px) {
     :root{
         font-size: 36;
+        background-color: green;
     }
 }
 
 /* Desktop styles */
-@media (min-width: 768px) {
+@media (min-width: 770px) {
     :root{
         font-size: 16;
+        background-color: #f5f6fa;
     }
 }
 
 body {
     display: block;
-    background-color: #f5f6fa;
 }
 
 #wrapper{
